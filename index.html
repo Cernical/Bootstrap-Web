@@ -32,6 +32,9 @@
                             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#">Software</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Servicios</a>
                         </li>
                         <li class="nav-item">
@@ -43,16 +46,57 @@
         </nav>
     </header>
     <main>
-        <!-- Contenido principal -->
-        <div class="container mt-4">
-            <h1>Titulo ejemplo</h1>
-            <p>Ejemplo de texto.</p>
+      <!-- Contenido principal -->
+      <div id="main">
+        <div id="left">
         </div>
+        <div id="center" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#center" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#center" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#center" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./media/Captura de pantalla_20240509_185601.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>SmartGest</h5>
+                <p>Software de gestión personalizable para pequeños negocios.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://user-images.githubusercontent.com/84983282/226587688-89725754-e0a8-49ff-a682-df492b26ea26.png" class="d-block  w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Globalmark</h5>
+                <p>Benchmark escrito en Python que apsira ser de uso universal.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./media/165526452-489bd5a7-6faf-4b46-b0e1-b51ad7cafa89.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>MathGame</h5>
+                <p>App de minijuegos y curiosidades matemáticas.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#center" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#center" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+        <div id="right">
+        </div>
+      </div>
+      <!------------------------->
     </main>
     <footer class="footer mt-auto py-3 bg-dark">
         <!-- Contenido pie -->
         <div class="container text-center">
-            <p style="color: white;">Hecho con amor en Bootstrap ❤️</p>
+          <span style="color: white;">Hecho en bootstrap con amor ❤️</span>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

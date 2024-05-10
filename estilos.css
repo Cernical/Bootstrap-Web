@@ -1,0 +1,19 @@
+body>main>#main{
+    display: flex;
+    justify-content: center;
+}
+
+body>main>#main>#left{
+    width: 20%; /* El ancho del div en porcentaje */
+    margin: 0 1%; /* Margen entre los div */
+}
+
+body>main>#main>#center{
+    width: 60%; /* El ancho del div en porcentaje */
+    margin: 0 1%; /* Margen entre los div */
+}
+
+body>main>#main>#right{
+    width: 20%; /* El ancho del div en porcentaje */
+    margin: 0 1%; /* Margen entre los div */
+}
