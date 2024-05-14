@@ -4,16 +4,36 @@ body>main>#main{
 }
 
 body>main>#main>#left{
-    width: 20%; /* El ancho del div en porcentaje */
+    width: 0%; /* El ancho del div en porcentaje */
     margin: 0 1%; /* Margen entre los div */
 }
 
 body>main>#main>#center{
-    width: 60%; /* El ancho del div en porcentaje */
-    margin: 0 1%; /* Margen entre los div */
+    width: 100%; /* El ancho del div en porcentaje */
+    margin: 0; /* Margen entre los div */
 }
 
 body>main>#main>#right{
-    width: 20%; /* El ancho del div en porcentaje */
+    width: 0%; /* El ancho del div en porcentaje */
     margin: 0 1%; /* Margen entre los div */
+}
+
+.container {
+    max-width: 100%;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-height: 100%;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+#titulo-webs {
+    margin: 20px;
 }
