@@ -38,10 +38,10 @@
                             <a class="nav-link" href="./index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./software.html">Software</a>
+                            <a class="nav-link" href="./software.html">Software</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -49,52 +49,63 @@
         </nav>
     </header>
     <main>
+      <!-- Banner -->
       <div class="position-relative overflow-hidden p-3 p-md-5 text-center" id="banner-software">
-        <div class="col-md-6 p-lg-5 mx-auto my-3">
-          <h1 class="display-3 fw-bold">Diseñado para avanzar</h1>
-          <h3 class="fw-normal text-muted mb-3">Últimos proyectos</h3>
+        <div class="col-md-6 p-lg-4 mx-auto my-5">
+          <h1 class="display-3 fw-bold">Contacta con CerniApps</h1>
         </div>
         <div class="product-device shadow-sm d-none d-md-block"></div>
         <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
       </div>
-
-      <div class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom">Software</h2>
-    
-        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-          
-          <a href="https://github.com/Cernical/MathGame-Android-Edition" target="_blank">
-            <div class="col">
-              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./media/MathGame.png');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">MathGame</h3>
+      <!-- Div Formulario -->
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-10">
+            <div class="contact-section">
+              <h2 class="text-center mb-4">Escríbenos</h2>
+              <div class="row">
+                <div class="col-md-5 contact-info">
+                  <a href="https://github.com/Cernical" target="_blank">
+                    <div class="col">
+                      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./media/github.png');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                          <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Github</h3>
+                          <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                              <img src="https://avatars.githubusercontent.com/u/84983282?v=4" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                              <small>Cernical</small>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <form>
+                    <div class="form-group">
+                      <label for="name">Nombre</label>
+                      <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Tu email">
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Mensaje</label>
+                      <textarea class="form-control" id="message" rows="4" placeholder="Tu mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                  </form>
                 </div>
               </div>
             </div>
-          </a>
-
-          <a href="https://github.com/Cernical/Globalmark" target="_blank">
-            <div class="col">
-              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./media/GlobalMark.png');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Globalmark</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-    
-          <a href="https://github.com/Cernical/SmartGest" target="_blank">
-            <div class="col">
-              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./media/SmartGest.png');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">SmartGest</h3>
-                </div>
-              </div>
-            </div>
-          </a>
+          </div>
         </div>
       </div>
-
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </main>
     <footer class="footer mt-auto py-3 bg-dark">
         <!-- Contenido pie -->
