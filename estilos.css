@@ -37,3 +37,11 @@ body>main>#main>#right{
 #titulo-webs {
     margin: 20px;
 }
+
+#carousel-tag {
+    background-color: rgba(0, 0, 0, 0.603);
+}
+
+#banner-software {
+    background-color: rgb(206, 109, 53);
+}
